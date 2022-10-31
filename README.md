@@ -3,4 +3,4 @@ The script scrape initial margin rate data from Stock Exchange Of Thailand and e
 
 ![](page0.jpg)
 
-![](page1.jpg)
+![](page5.jpg)
