@@ -51,7 +51,9 @@ NOTE: API Key from google cloud console are required
 
 
 ## Builtin Function: Auto Image Editor
+#Before
 ![](gen1.jpg)
+#After
 ![](gen2.jpg)
 
 ## Builtin Function: Download and converting PDF TO JPG sample
