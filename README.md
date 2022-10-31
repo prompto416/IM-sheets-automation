@@ -5,7 +5,7 @@ The script scrape initial margin rate data from Stock Exchange Of Thailand and e
 Additionally, the script also includes a download function to download the google sheet as PDF and a function that converts PDF to JPG for previewing in the LINE message app.
 
 ## 1) Scraping download link from hidden HTML element by running selenium webdriver to find javascript hidden element
-Scraping a hidden elemenet or scripted element isn't simple. Alternatively, you can use webdriver to actually run the website so javascript elements accessible then once we have activated the element we can then scrape the element. It is to be noted that you should give ample time for the webdriver to load if not the function will return an empty string since the code was forced to execute before the website finished loading 
+Scraping a hidden element or scripted element isn't simple. Alternatively, you can use webdriver to actually run the website so javascript elements accessible then once we have activated the element we can then scrape the element. It is to be noted that you should give ample time for the webdriver to load if not the function will return an empty string since the code was forced to execute before the website finished loading 
 ```
 def scrapeHTML_string():
     PATH = 'C:\Program Files (x86)\chromedriver.exe'
