@@ -8,6 +8,7 @@ Additionally, the script also includes a download function to download the googl
 Scraping a hidden element or scripted element isn't simple. Alternatively, you can use webdriver to actually run the website so javascript elements accessible then once we have activated the element we can then scrape the element. It is to be noted that you should give ample time for the webdriver to load if not the function will return an empty string since the code was forced to execute before the website finished loading 
 
 
+![](step1.1.png)
 ![](step1.png)
 ```
 def scrapeHTML_string():
