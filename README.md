@@ -43,7 +43,7 @@ def scrapeHTML_string():
     driver.quit()
     
 
-## 2) Read and write excel data onto google sheets by sending the API request or importing a libary with a request function 
+## 2) Downloading Excel then read and write excel data onto google sheets by sending the API request or importing a libary with a request function 
 NOTE: API Key from google cloud console are required
 
 
@@ -52,4 +52,3 @@ NOTE: API Key from google cloud console are required
 
 ![](page0.jpg)
 
-![](page5.jpg)
