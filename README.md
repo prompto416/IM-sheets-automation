@@ -6,6 +6,9 @@ Additionally, the script also includes a download function to download the googl
 
 ## 1) Scraping download link from hidden HTML element by running selenium webdriver to find javascript hidden element
 Scraping a hidden element or scripted element isn't simple. Alternatively, you can use webdriver to actually run the website so javascript elements accessible then once we have activated the element we can then scrape the element. It is to be noted that you should give ample time for the webdriver to load if not the function will return an empty string since the code was forced to execute before the website finished loading 
+
+
+![](step1.png)
 ```
 def scrapeHTML_string():
     PATH = 'C:\Program Files (x86)\chromedriver.exe'
