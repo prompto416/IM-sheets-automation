@@ -59,3 +59,25 @@ NOTE: API Key from google cloud console are required
 # Builtin Function: Download and converting PDF TO JPG sample
 ![](page0.jpg)
 
+# Line Notify Request syntax
+```
+import requests
+
+url = 'https://notify-api.line.me/api/notify'
+#your token
+token = ''
+headers = {
+            'content-type':
+            'application/x-www-form-urlencoded',
+            'Authorization':'Bearer '+token
+           }
+#image you want to send you can upload them on imgur or so
+imageurl = 'https://media.discordapp.net/attachments/938633479950827520/1014175836242464891/unknown.png'
+while True:
+    
+    msg = input("Enter your message:")
+    r = requests.post(url, headers=headers , data = {'message':" ",'imageThumbnail':imageurl,'imageFullsize':imageurl}
+)
+    # r = requests.post(url, headers=headers , data = {'message':msg})
+    print(r.text)
+```
