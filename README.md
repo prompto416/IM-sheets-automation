@@ -4,6 +4,11 @@ The script scrape initial margin rate data from Stock Exchange Of Thailand and e
 
 Additionally, the script also includes a download function to download the google sheet as PDF and a function that converts PDF to JPG for previewing in the LINE message app.
 
+## 1) Scraping download link from hidden HTML element by running selenium webdriver to find javascript hidden element
+
+
+## 2) Read and write excel data onto google sheets by sending the API request or importing a libary with a request function 
+NOTE: API Key from google cloud console are required
 ![](output.jpg)
 
 
