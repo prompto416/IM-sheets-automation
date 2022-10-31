@@ -50,12 +50,12 @@ NOTE: API Key from google cloud console are required
 ![](output.jpg)
 
 
-## Builtin Function: Auto Image Editor
-# Before
+# Builtin Function: Auto Image Editor
+## Before
 ![](gen1.jpg)
-# After
+## After
 ![](gen2.jpg)
 
-## Builtin Function: Download and converting PDF TO JPG sample
+# Builtin Function: Download and converting PDF TO JPG sample
 ![](page0.jpg)
 
