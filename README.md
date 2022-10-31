@@ -4,7 +4,7 @@ The script scrape initial margin rate data from Stock Exchange Of Thailand and e
 
 
 
-## Additionally the script also includes a download function to download the google sheet as PDF and a function that converts PDF to JPG for previewing in the LINE message app
+Additionally the script also includes a download function to download the google sheet as PDF and a function that converts PDF to JPG for previewing in the LINE message app
 
 ![](page0.jpg)
 
